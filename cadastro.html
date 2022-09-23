@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Estilos.css">
-    <link rel="stylesheet" href="Estilos formulario.css">
+    <link rel="stylesheet" href="Estilos cadastro.css">
 
 </head>
 
@@ -19,8 +19,8 @@
                     <li><a href="Index.html">Home</a></li>
                     <li>Simulador</li>
                     <li>|</li>
-                    <li id="aqui">Login</li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li id="aqui">Cadastro</li>
                 </ul>
             </div>
         </div>
@@ -28,9 +28,12 @@
 
        <div class="banner">
             <div class="container">
-                <div class="caixa_formulario">
-                    <h1> Olá de volta!</h1>
-                        <div class="formulario">
+                <div class="caixa_cadastro">
+                    <h1> Olá, Seja Bem Vindo!</h1>
+                        <div class="cadastro">
+
+                            <span>Nome:</span>
+                            <input id="inp_nome" type="email" placeholder="Nome Completo">
 
                             <span>E-mail:</span>
                             <input id="inp_email" type="email" placeholder="Seu E-mail">
@@ -38,7 +41,10 @@
                             <span>Senha:</span>
                             <input id="inp_senha" type="password" placeholder="Sua Senha">
 
-                            <button>Entrar</button>
+                            <span> Confirmar Senha:</span>
+                            <input id="inp_confirmar" type="password" placeholder="Confirmar Senha">
+
+                            <button>Cadastrar</button>
 
                         </div>
                 </div>
